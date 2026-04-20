@@ -1,5 +1,6 @@
 import csv
 import logging
+
 from models.video_metrics import VideoMetrics
 
 logger = logging.getLogger(__name__)

@@ -1,6 +1,6 @@
+from models.video_metrics import VideoMetrics
 from presentation.console_renderer import ConsoleRenderer
 from reports.clickbait import ClickbaitReport
-from models.video_metrics import VideoMetrics
 
 
 def test_console_renderer_smoke(capsys):

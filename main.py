@@ -3,14 +3,13 @@ import logging
 import sys
 
 from models.video_metrics import VideoMetrics
+from presentation.console_renderer import ConsoleRenderer
 from reports import REPORTS
 from services.file_loader import load_data
-from presentation.console_renderer import ConsoleRenderer
-
 from services.logging_config import configure_logging
 
-
 logger = logging.getLogger(__name__)
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate reports from CSV files")

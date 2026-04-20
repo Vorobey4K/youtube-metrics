@@ -22,7 +22,7 @@ class ClickbaitReport(BaseReport):
             row
             for row in data
             if row.ctr > self.CTR_THRESHOLD
-               and row.retention_rate < self.RETENTION_THRESHOLD
+            and row.retention_rate < self.RETENTION_THRESHOLD
         ]
 
     def to_row(self, item: VideoMetrics) -> list:

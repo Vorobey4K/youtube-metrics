@@ -1,6 +1,7 @@
 import pytest
-from reports.clickbait import ClickbaitReport
+
 from models.video_metrics import VideoMetrics
+from reports.clickbait import ClickbaitReport
 
 
 @pytest.mark.parametrize(

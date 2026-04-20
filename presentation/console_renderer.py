@@ -1,5 +1,7 @@
 from tabulate import tabulate
+
 from reports.base import BaseReport
+
 
 class ConsoleRenderer:
     def render(self, data, report: BaseReport) -> None:

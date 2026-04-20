@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class VideoMetrics:
     title: str
@@ -8,6 +9,3 @@ class VideoMetrics:
     views: int
     likes: int
     avg_watch_time: float
-
-
- 
